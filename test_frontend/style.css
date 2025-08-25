@@ -1,0 +1,23 @@
+body { background-color: #f0f2f5; }
+
+#chat-log { height: 400px; overflow-y: auto; }
+
+.message {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  max-width: 75%;
+}
+
+.interviewer {
+  background-color: #e9ecef;
+  text-align: left;
+}
+
+.candidate {
+  background-color: #0d6efd;
+  color: white;
+  text-align: right;
+  margin-left: auto;
+}
+
